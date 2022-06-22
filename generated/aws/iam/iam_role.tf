@@ -1,4 +1,4 @@
-resource "aws_iam_role" "tfer--16bwcc-a7g55jj" {
+resource "aws_iam_role" "16bwcc-a7g55jj" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -27,7 +27,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--16bwcc-b3e0lx" {
+resource "aws_iam_role" "16bwcc-b3e0lx" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -56,7 +56,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--16bwcc-w0ra6r" {
+resource "aws_iam_role" "16bwcc-w0ra6r" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -85,7 +85,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--6sy55r8-a9pbajn" {
+resource "aws_iam_role" "6sy55r8-a9pbajn" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -114,7 +114,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--6sy55r8-db1ywul" {
+resource "aws_iam_role" "6sy55r8-db1ywul" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -143,7 +143,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWS-CodePipeline-Service" {
+resource "aws_iam_role" "AWS-CodePipeline-Service" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -170,7 +170,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWS-QuickSetup-StackSet-Local-AdministrationRole" {
+resource "aws_iam_role" "AWS-QuickSetup-StackSet-Local-AdministrationRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -196,7 +196,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWS-QuickSetup-StackSet-Local-ExecutionRole" {
+resource "aws_iam_role" "AWS-QuickSetup-StackSet-Local-ExecutionRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -218,7 +218,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWSArtifactAccountSync" {
+resource "aws_iam_role" "AWSArtifactAccountSync" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -241,7 +241,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSCodePipelineServiceRole-us-east-1-stadium-simulation" {
+resource "aws_iam_role" "AWSCodePipelineServiceRole-us-east-1-stadium-simulation" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -263,7 +263,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSCodeStarNotifications-Chatbot-Slack-Role" {
+resource "aws_iam_role" "AWSCodeStarNotifications-Chatbot-Slack-Role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -286,7 +286,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSControlTowerExecution" {
+resource "aws_iam_role" "AWSControlTowerExecution" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -310,7 +310,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWSDataPipelineEC2InstanceRole" {
+resource "aws_iam_role" "AWSDataPipelineEC2InstanceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -333,7 +333,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWSDataPipelineRole" {
+resource "aws_iam_role" "AWSDataPipelineRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -359,7 +359,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWSFISServiceRole" {
+resource "aws_iam_role" "AWSFISServiceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -383,7 +383,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AWSGlueServiceRole-AmexPoiDataCrawler" {
+resource "aws_iam_role" "AWSGlueServiceRole-AmexPoiDataCrawler" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -405,7 +405,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSGlueServiceRole-AmexPoiDataCrawlerParquet" {
+resource "aws_iam_role" "AWSGlueServiceRole-AmexPoiDataCrawlerParquet" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -427,7 +427,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSGlueServiceRole-destinationCrawler" {
+resource "aws_iam_role" "AWSGlueServiceRole-destinationCrawler" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -449,7 +449,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AWSAdministratorAccess_8a2ad0e2c79db090" {
+resource "aws_iam_role" "AWSReservedSSO_AWSAdministratorAccess_8a2ad0e2c79db090" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -480,7 +480,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AWSOrganizationsFullAccess_83e8bbb79af18679" {
+resource "aws_iam_role" "AWSReservedSSO_AWSOrganizationsFullAccess_83e8bbb79af18679" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -511,7 +511,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AWSPowerUserAccess_ee1cd8af3aa648a5" {
+resource "aws_iam_role" "AWSReservedSSO_AWSPowerUserAccess_ee1cd8af3aa648a5" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -542,7 +542,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AWSReadOnlyAccess_dfd8b2365e441a03" {
+resource "aws_iam_role" "AWSReservedSSO_AWSReadOnlyAccess_dfd8b2365e441a03" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -573,7 +573,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AWSServiceCatalogAdminFullAccess_4762e3cd7eca4e76" {
+resource "aws_iam_role" "AWSReservedSSO_AWSServiceCatalogAdminFullAccess_4762e3cd7eca4e76" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -604,7 +604,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_AdministratorAccess_ac909d5543214d9b" {
+resource "aws_iam_role" "AWSReservedSSO_AdministratorAccess_ac909d5543214d9b" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -634,7 +634,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_DataScientist_cbb72e52c0a42bb0" {
+resource "aws_iam_role" "AWSReservedSSO_DataScientist_cbb72e52c0a42bb0" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -664,7 +664,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_DatabaseAdministrator_90f29d686eca966e" {
+resource "aws_iam_role" "AWSReservedSSO_DatabaseAdministrator_90f29d686eca966e" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -694,7 +694,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_NetworkAdministrator_f78fab1e71d7017e" {
+resource "aws_iam_role" "AWSReservedSSO_NetworkAdministrator_f78fab1e71d7017e" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -724,7 +724,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_PowerUserAccess_726af164bc935121" {
+resource "aws_iam_role" "AWSReservedSSO_PowerUserAccess_726af164bc935121" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -754,7 +754,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSReservedSSO_SystemAdministrator_427b0e019e8548f1" {
+resource "aws_iam_role" "AWSReservedSSO_SystemAdministrator_427b0e019e8548f1" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -784,7 +784,7 @@ POLICY
   path                 = "/aws-reserved/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAPIGateway" {
+resource "aws_iam_role" "AWSServiceRoleForAPIGateway" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -807,7 +807,7 @@ POLICY
   path                 = "/aws-service-role/ops.apigateway.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAWSChatbot" {
+resource "aws_iam_role" "AWSServiceRoleForAWSChatbot" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -830,7 +830,7 @@ POLICY
   path                 = "/aws-service-role/management.chatbot.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonEKS" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonEKS" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -853,7 +853,7 @@ POLICY
   path                 = "/aws-service-role/eks.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonEKSNodegroup" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonEKSNodegroup" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -876,7 +876,7 @@ POLICY
   path                 = "/aws-service-role/eks-nodegroup.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonElasticFileSystem" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonElasticFileSystem" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -898,7 +898,7 @@ POLICY
   path                 = "/aws-service-role/elasticfilesystem.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonGuardDuty" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonGuardDuty" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -921,7 +921,7 @@ POLICY
   path                 = "/aws-service-role/guardduty.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonMQ" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonMQ" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -944,7 +944,7 @@ POLICY
   path                 = "/aws-service-role/mq.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonSSM" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonSSM" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -967,7 +967,7 @@ POLICY
   path                 = "/aws-service-role/ssm.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAmazonSageMakerNotebooks" {
+resource "aws_iam_role" "AWSServiceRoleForAmazonSageMakerNotebooks" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -990,7 +990,7 @@ POLICY
   path                 = "/aws-service-role/sagemaker.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForApplicationAutoScaling_ECSService" {
+resource "aws_iam_role" "AWSServiceRoleForApplicationAutoScaling_ECSService" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1012,7 +1012,7 @@ POLICY
   path                 = "/aws-service-role/ecs.application-autoscaling.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForAutoScaling" {
+resource "aws_iam_role" "AWSServiceRoleForAutoScaling" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1035,7 +1035,7 @@ POLICY
   path                 = "/aws-service-role/autoscaling.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForBackup" {
+resource "aws_iam_role" "AWSServiceRoleForBackup" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1057,7 +1057,7 @@ POLICY
   path                 = "/aws-service-role/backup.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForClientVPN" {
+resource "aws_iam_role" "AWSServiceRoleForClientVPN" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1080,7 +1080,7 @@ POLICY
   path                 = "/aws-service-role/clientvpn.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForClientVPNConnections" {
+resource "aws_iam_role" "AWSServiceRoleForClientVPNConnections" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1103,7 +1103,7 @@ POLICY
   path                 = "/aws-service-role/clientvpn-connections.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForCloudFormationStackSetsOrgMember" {
+resource "aws_iam_role" "AWSServiceRoleForCloudFormationStackSetsOrgMember" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1126,7 +1126,7 @@ POLICY
   path                 = "/aws-service-role/member.org.stacksets.cloudformation.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForCloudFrontLogger" {
+resource "aws_iam_role" "AWSServiceRoleForCloudFrontLogger" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1148,7 +1148,7 @@ POLICY
   path                 = "/aws-service-role/logger.cloudfront.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForCodeStarNotifications" {
+resource "aws_iam_role" "AWSServiceRoleForCodeStarNotifications" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1171,7 +1171,7 @@ POLICY
   path                 = "/aws-service-role/codestar-notifications.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForComputeOptimizer" {
+resource "aws_iam_role" "AWSServiceRoleForComputeOptimizer" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1194,7 +1194,7 @@ POLICY
   path                 = "/aws-service-role/compute-optimizer.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForConfig" {
+resource "aws_iam_role" "AWSServiceRoleForConfig" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1216,7 +1216,7 @@ POLICY
   path                 = "/aws-service-role/config.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForDynamoDBKinesisDataStreamsReplication" {
+resource "aws_iam_role" "AWSServiceRoleForDynamoDBKinesisDataStreamsReplication" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1238,7 +1238,7 @@ POLICY
   path                 = "/aws-service-role/kinesisreplication.dynamodb.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForECRReplication" {
+resource "aws_iam_role" "AWSServiceRoleForECRReplication" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1260,7 +1260,7 @@ POLICY
   path                 = "/aws-service-role/replication.ecr.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForECS" {
+resource "aws_iam_role" "AWSServiceRoleForECS" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1283,7 +1283,7 @@ POLICY
   path                 = "/aws-service-role/ecs.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForElastiCache" {
+resource "aws_iam_role" "AWSServiceRoleForElastiCache" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1306,7 +1306,7 @@ POLICY
   path                 = "/aws-service-role/elasticache.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForElasticLoadBalancing" {
+resource "aws_iam_role" "AWSServiceRoleForElasticLoadBalancing" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1329,7 +1329,7 @@ POLICY
   path                 = "/aws-service-role/elasticloadbalancing.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForFIS" {
+resource "aws_iam_role" "AWSServiceRoleForFIS" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1352,7 +1352,7 @@ POLICY
   path                 = "/aws-service-role/fis.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForGlobalAccelerator" {
+resource "aws_iam_role" "AWSServiceRoleForGlobalAccelerator" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1375,7 +1375,7 @@ POLICY
   path                 = "/aws-service-role/globalaccelerator.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForLambdaReplicator" {
+resource "aws_iam_role" "AWSServiceRoleForLambdaReplicator" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1397,7 +1397,7 @@ POLICY
   path                 = "/aws-service-role/replicator.lambda.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForLexBots" {
+resource "aws_iam_role" "AWSServiceRoleForLexBots" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1419,7 +1419,7 @@ POLICY
   path                 = "/aws-service-role/lex.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForOrganizations" {
+resource "aws_iam_role" "AWSServiceRoleForOrganizations" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1442,7 +1442,7 @@ POLICY
   path                 = "/aws-service-role/organizations.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForRDS" {
+resource "aws_iam_role" "AWSServiceRoleForRDS" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1465,7 +1465,7 @@ POLICY
   path                 = "/aws-service-role/rds.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForRedshift" {
+resource "aws_iam_role" "AWSServiceRoleForRedshift" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1488,7 +1488,7 @@ POLICY
   path                 = "/aws-service-role/redshift.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForSSO" {
+resource "aws_iam_role" "AWSServiceRoleForSSO" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1511,7 +1511,7 @@ POLICY
   path                 = "/aws-service-role/sso.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForServiceQuotas" {
+resource "aws_iam_role" "AWSServiceRoleForServiceQuotas" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1534,7 +1534,7 @@ POLICY
   path                 = "/aws-service-role/servicequotas.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForSupport" {
+resource "aws_iam_role" "AWSServiceRoleForSupport" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1557,7 +1557,7 @@ POLICY
   path                 = "/aws-service-role/support.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSServiceRoleForTrustedAdvisor" {
+resource "aws_iam_role" "AWSServiceRoleForTrustedAdvisor" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1580,7 +1580,7 @@ POLICY
   path                 = "/aws-service-role/trustedadvisor.amazonaws.com/"
 }
 
-resource "aws_iam_role" "tfer--AWSTransferLoggingAccess" {
+resource "aws_iam_role" "AWSTransferLoggingAccess" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1602,7 +1602,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AWSTransferRole" {
+resource "aws_iam_role" "AWSTransferRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1625,7 +1625,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--AmazonPersonalize-ExecutionRole-1617905147659" {
+resource "aws_iam_role" "AmazonPersonalize-ExecutionRole-1617905147659" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1648,7 +1648,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonRedshift-CommandsAccessRole-20220127T093536" {
+resource "aws_iam_role" "AmazonRedshift-CommandsAccessRole-20220127T093536" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1674,7 +1674,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonSSMExplorerExportRole" {
+resource "aws_iam_role" "AmazonSSMExplorerExportRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1697,7 +1697,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonSageMaker-ExecutionRole-20210628T231528" {
+resource "aws_iam_role" "AmazonSageMaker-ExecutionRole-20210628T231528" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1720,7 +1720,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonSageMaker-ExecutionRole-20220427T111683" {
+resource "aws_iam_role" "AmazonSageMaker-ExecutionRole-20220427T111683" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1743,7 +1743,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonSageMakerServiceCatalogProductsLaunchRole" {
+resource "aws_iam_role" "AmazonSageMakerServiceCatalogProductsLaunchRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1766,7 +1766,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmazonSageMakerServiceCatalogProductsUseRole" {
+resource "aws_iam_role" "AmazonSageMakerServiceCatalogProductsUseRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1800,7 +1800,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--AmexPoiGlueRole" {
+resource "aws_iam_role" "AmexPoiGlueRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1823,7 +1823,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ApiGatewayRoleKinesisRW" {
+resource "aws_iam_role" "ApiGatewayRoleKinesisRW" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1847,7 +1847,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ApplicationAutoScalingForAmazonAppStreamAccess" {
+resource "aws_iam_role" "ApplicationAutoScalingForAmazonAppStreamAccess" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1869,7 +1869,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--CloudwatchFullAccess" {
+resource "aws_iam_role" "CloudwatchFullAccess" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1891,7 +1891,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--CodeBuildServiceRole" {
+resource "aws_iam_role" "CodeBuildServiceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1914,7 +1914,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--CodeDeploy-EC2-Instance-Profile" {
+resource "aws_iam_role" "CodeDeploy-EC2-Instance-Profile" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1936,7 +1936,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--CodeDeployServiceRole" {
+resource "aws_iam_role" "CodeDeployServiceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1959,7 +1959,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--Cognito_MobiUsersAuth_Role" {
+resource "aws_iam_role" "Cognito_MobiUsersAuth_Role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -1993,7 +1993,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--Cognito_MobiUsersUnauth_Role" {
+resource "aws_iam_role" "Cognito_MobiUsersUnauth_Role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2027,7 +2027,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--DatadogAWSIntegrationRole" {
+resource "aws_iam_role" "DatadogAWSIntegrationRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2055,7 +2055,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--Datadog_AWS_Web_Services_Integration" {
+resource "aws_iam_role" "Datadog_AWS_Web_Services_Integration" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2083,7 +2083,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--EC2_DisneyPOC" {
+resource "aws_iam_role" "EC2_DisneyPOC" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2106,7 +2106,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--EKSNodeInstanceDevRole" {
+resource "aws_iam_role" "EKSNodeInstanceDevRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2136,7 +2136,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--EKSNodeInstanceRole" {
+resource "aws_iam_role" "EKSNodeInstanceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2218,7 +2218,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--EKSNodeInstanceStagingRole" {
+resource "aws_iam_role" "EKSNodeInstanceStagingRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2248,7 +2248,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--EKSNodeInstanceUatRole" {
+resource "aws_iam_role" "EKSNodeInstanceUatRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2278,7 +2278,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--HelloWorldFunction-role-sqhbv8z9" {
+resource "aws_iam_role" "HelloWorldFunction-role-sqhbv8z9" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2305,7 +2305,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--KinesisCrossAccountTUI" {
+resource "aws_iam_role" "KinesisCrossAccountTUI" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2329,7 +2329,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--KinesisCrossAccountTUI2" {
+resource "aws_iam_role" "KinesisCrossAccountTUI2" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2352,7 +2352,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--KinesisCrossAccountTUIDriverLocation" {
+resource "aws_iam_role" "KinesisCrossAccountTUIDriverLocation" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2376,7 +2376,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--KinesisFirehoseServiceRole-mobi-six-flag-us-east-1-1611177560958" {
+resource "aws_iam_role" "KinesisFirehoseServiceRole-mobi-six-flag-us-east-1-1611177560958" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2398,7 +2398,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--LucidchartAwsImport" {
+resource "aws_iam_role" "LucidchartAwsImport" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2425,7 +2425,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--MonitoringTestAlertToOpsgenie-role-ecy6kecd" {
+resource "aws_iam_role" "MonitoringTestAlertToOpsgenie-role-ecy6kecd" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2447,7 +2447,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--OpsItem-CWE-Role" {
+resource "aws_iam_role" "OpsItem-CWE-Role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2470,7 +2470,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--POIGenerationServiceSageMakerExecutionRole" {
+resource "aws_iam_role" "POIGenerationServiceSageMakerExecutionRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2502,7 +2502,7 @@ POLICY
   }
 }
 
-resource "aws_iam_role" "tfer--POIGeneratorTaskServiceRole" {
+resource "aws_iam_role" "POIGeneratorTaskServiceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2534,7 +2534,7 @@ POLICY
   }
 }
 
-resource "aws_iam_role" "tfer--SNSFailureFeedback" {
+resource "aws_iam_role" "SNSFailureFeedback" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2560,7 +2560,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--SNSSuccessFeedback" {
+resource "aws_iam_role" "SNSSuccessFeedback" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2591,7 +2591,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--StatesExecutionRole-us-east-1" {
+resource "aws_iam_role" "StatesExecutionRole-us-east-1" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2613,7 +2613,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--TestRole" {
+resource "aws_iam_role" "TestRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2635,7 +2635,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--TransitDataAlertToOpsgenie-role-ahu327wv" {
+resource "aws_iam_role" "TransitDataAlertToOpsgenie-role-ahu327wv" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2657,7 +2657,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--amplify-login-lambda-c47df780" {
+resource "aws_iam_role" "amplify-login-lambda-c47df780" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2683,7 +2683,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--amplifyconsole-backend-role" {
+resource "aws_iam_role" "amplifyconsole-backend-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2714,7 +2714,7 @@ POLICY
   }
 }
 
-resource "aws_iam_role" "tfer--aws-controltower-AdministratorExecutionRole" {
+resource "aws_iam_role" "aws-controltower-AdministratorExecutionRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2736,7 +2736,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-controltower-CloudWatchLogsRole" {
+resource "aws_iam_role" "aws-controltower-CloudWatchLogsRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2763,7 +2763,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-controltower-ConfigRecorderRole" {
+resource "aws_iam_role" "aws-controltower-ConfigRecorderRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2785,7 +2785,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-controltower-ForwardSnsNotificationRole" {
+resource "aws_iam_role" "aws-controltower-ForwardSnsNotificationRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2812,7 +2812,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-controltower-ReadOnlyExecutionRole" {
+resource "aws_iam_role" "aws-controltower-ReadOnlyExecutionRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2834,7 +2834,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-elasticbeanstalk-ec2-role" {
+resource "aws_iam_role" "aws-elasticbeanstalk-ec2-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2856,7 +2856,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws-elasticbeanstalk-service-role" {
+resource "aws_iam_role" "aws-elasticbeanstalk-service-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2883,7 +2883,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--aws_batch_service_role" {
+resource "aws_iam_role" "aws_batch_service_role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2905,7 +2905,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--bluesky-authenticator-role-dywn893c" {
+resource "aws_iam_role" "bluesky-authenticator-role-dywn893c" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2930,7 +2930,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--cloudcraft" {
+resource "aws_iam_role" "cloudcraft" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2957,7 +2957,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--codebuild" {
+resource "aws_iam_role" "codebuild" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -2983,7 +2983,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--codebuild-BuildStadiumSimilation-service-role" {
+resource "aws_iam_role" "codebuild-BuildStadiumSimilation-service-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3005,7 +3005,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--codepipeline" {
+resource "aws_iam_role" "codepipeline" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3031,7 +3031,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--cwe-role-us-east-1-mobi-global-ui-staging" {
+resource "aws_iam_role" "cwe-role-us-east-1-mobi-global-ui-staging" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3053,7 +3053,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--ecsAutoscaleRole" {
+resource "aws_iam_role" "ecsAutoscaleRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3075,7 +3075,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ecsEventsRole" {
+resource "aws_iam_role" "ecsEventsRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3098,7 +3098,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ecsInstanceRole" {
+resource "aws_iam_role" "ecsInstanceRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3121,7 +3121,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ecsTaskExecutionRole" {
+resource "aws_iam_role" "ecsTaskExecutionRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3144,7 +3144,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ecs_instance_role" {
+resource "aws_iam_role" "ecs_instance_role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3166,7 +3166,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--eks-alb-ingress-controller" {
+resource "aws_iam_role" "eks-alb-ingress-controller" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3201,7 +3201,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--eks-node-group-mobi" {
+resource "aws_iam_role" "eks-node-group-mobi" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3223,7 +3223,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--eksClusterRole" {
+resource "aws_iam_role" "eksClusterRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3258,7 +3258,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN" {
+resource "aws_iam_role" "eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3305,7 +3305,7 @@ POLICY
   }
 }
 
-resource "aws_iam_role" "tfer--lambda-es-execution-role" {
+resource "aws_iam_role" "lambda-es-execution-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3332,7 +3332,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--lambda-sns-execution-role" {
+resource "aws_iam_role" "lambda-sns-execution-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3354,7 +3354,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--lambda_basic_execution" {
+resource "aws_iam_role" "lambda_basic_execution" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3383,7 +3383,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--lambda_w_S3" {
+resource "aws_iam_role" "lambda_w_S3" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3409,7 +3409,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--mobi-eks-cluster-node-group2" {
+resource "aws_iam_role" "mobi-eks-cluster-node-group2" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3451,7 +3451,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--mobi-eks-role" {
+resource "aws_iam_role" "mobi-eks-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3473,7 +3473,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--myRedshiftRole" {
+resource "aws_iam_role" "myRedshiftRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3496,7 +3496,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--nbuu1a-2wc5zc" {
+resource "aws_iam_role" "nbuu1a-2wc5zc" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3525,7 +3525,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--nbuu1a-prufk18" {
+resource "aws_iam_role" "nbuu1a-prufk18" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3554,7 +3554,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--nbuu1a-wqtofz" {
+resource "aws_iam_role" "nbuu1a-wqtofz" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3583,7 +3583,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ot47ym-51pc8g" {
+resource "aws_iam_role" "ot47ym-51pc8g" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3612,7 +3612,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--ot47ym-vlk2lnj" {
+resource "aws_iam_role" "ot47ym-vlk2lnj" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3641,7 +3641,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--rds-monitoring-role" {
+resource "aws_iam_role" "rds-monitoring-role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3664,7 +3664,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--rm-data-updater-role-syqli4rx" {
+resource "aws_iam_role" "rm-data-updater-role-syqli4rx" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3686,7 +3686,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--sis-tui-staging-driver_gps_tracking-role-89menq4r" {
+resource "aws_iam_role" "sis-tui-staging-driver_gps_tracking-role-89menq4r" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3708,7 +3708,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--sis-tui-staging-masterdata_updater-role-vwkzditl" {
+resource "aws_iam_role" "sis-tui-staging-masterdata_updater-role-vwkzditl" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3730,7 +3730,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--six-flags-park-data-authorizer-role-vgyh8nru" {
+resource "aws_iam_role" "six-flags-park-data-authorizer-role-vgyh8nru" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3752,7 +3752,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--sls-drivergpstracking-dev-eu-central-1-lambdaRole" {
+resource "aws_iam_role" "sls-drivergpstracking-dev-eu-central-1-lambdaRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3786,7 +3786,7 @@ POLICY
   }
 }
 
-resource "aws_iam_role" "tfer--sls-tui-pre-eu-central-1-lambdaRole" {
+resource "aws_iam_role" "sls-tui-pre-eu-central-1-lambdaRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3812,7 +3812,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--sls-tui-prod-eu-central-1-lambdaRole" {
+resource "aws_iam_role" "sls-tui-prod-eu-central-1-lambdaRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3838,7 +3838,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--sls-tui-staging-eu-central-1-lambdaRole" {
+resource "aws_iam_role" "sls-tui-staging-eu-central-1-lambdaRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3864,7 +3864,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--sls-tui-uat-eu-central-1-lambdaRole" {
+resource "aws_iam_role" "sls-tui-uat-eu-central-1-lambdaRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3890,7 +3890,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--stacksets-exec-c2f6a349c14169d235450f9b214de3d1" {
+resource "aws_iam_role" "stacksets-exec-c2f6a349c14169d235450f9b214de3d1" {
   assume_role_policy = <<POLICY
 {
   "Id": "stacksets-exec-c2f6a349c14169d235450f9b214de3d1-assume-role-policy",
@@ -3916,7 +3916,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--testlambda-role-vyhnm1p9" {
+resource "aws_iam_role" "testlambda-role-vyhnm1p9" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3938,7 +3938,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--tui-masterdata-updater-role-o2fs07bb" {
+resource "aws_iam_role" "tui-masterdata-updater-role-o2fs07bb" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3960,7 +3960,7 @@ POLICY
   path                 = "/service-role/"
 }
 
-resource "aws_iam_role" "tfer--us-east-1_yCoNrnkbE-authRole" {
+resource "aws_iam_role" "us-east-1_yCoNrnkbE-authRole" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -3990,7 +3990,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--us-east-1_yCoNrnkbE_Full-access" {
+resource "aws_iam_role" "us-east-1_yCoNrnkbE_Full-access" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -4026,7 +4026,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--us-east-1_yCoNrnkbE_Manage-only" {
+resource "aws_iam_role" "us-east-1_yCoNrnkbE_Manage-only" {
   assume_role_policy = <<POLICY
 {
   "Statement": [
@@ -4061,7 +4061,7 @@ POLICY
   path                 = "/"
 }
 
-resource "aws_iam_role" "tfer--was_apigateway_logging_role" {
+resource "aws_iam_role" "was_apigateway_logging_role" {
   assume_role_policy = <<POLICY
 {
   "Statement": [

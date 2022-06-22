@@ -1,4 +1,4 @@
-resource "aws_iam_user_policy" "tfer--circle_ci_CircleCI_ECSRunTask" {
+resource "aws_iam_user_policy" "circle_ci_CircleCI_ECSRunTask" {
   name = "CircleCI_ECSRunTask"
 
   policy = <<POLICY
@@ -18,7 +18,7 @@ POLICY
   user = "circle_ci"
 }
 
-resource "aws_iam_user_policy" "tfer--circle_ci_CircleCI_RDS" {
+resource "aws_iam_user_policy" "circle_ci_CircleCI_RDS" {
   name = "CircleCI_RDS"
 
   policy = <<POLICY
@@ -50,7 +50,7 @@ POLICY
   user = "circle_ci"
 }
 
-resource "aws_iam_user_policy" "tfer--circle_ci_ECSReadTaskDefinitionPolicy" {
+resource "aws_iam_user_policy" "circle_ci_ECSReadTaskDefinitionPolicy" {
   name = "ECSReadTaskDefinitionPolicy"
 
   policy = <<POLICY
@@ -70,7 +70,7 @@ POLICY
   user = "circle_ci"
 }
 
-resource "aws_iam_user_policy" "tfer--dingli_EKS-All" {
+resource "aws_iam_user_policy" "dingli_EKS-All" {
   name = "EKS-All"
 
   policy = <<POLICY

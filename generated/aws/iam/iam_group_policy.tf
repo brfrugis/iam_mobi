@@ -1,4 +1,4 @@
-resource "aws_iam_group_policy" "tfer--micro_services_micro_services" {
+resource "aws_iam_group_policy" "micro_services_micro_services" {
   group = "micro_services"
   name  = "micro_services"
 

@@ -1,4 +1,4 @@
-resource "aws_iam_role_policy" "tfer--16bwcc-a7g55jj_16bwcc-a7g55jj-policy" {
+resource "aws_iam_role_policy" "16bwcc-a7g55jj_16bwcc-a7g55jj-policy" {
   name = "16bwcc-a7g55jj-policy"
 
   policy = <<POLICY
@@ -29,7 +29,7 @@ POLICY
   role = "16bwcc-a7g55jj"
 }
 
-resource "aws_iam_role_policy" "tfer--16bwcc-b3e0lx_16bwcc-b3e0lx-policy" {
+resource "aws_iam_role_policy" "16bwcc-b3e0lx_16bwcc-b3e0lx-policy" {
   name = "16bwcc-b3e0lx-policy"
 
   policy = <<POLICY
@@ -60,7 +60,7 @@ POLICY
   role = "16bwcc-b3e0lx"
 }
 
-resource "aws_iam_role_policy" "tfer--16bwcc-w0ra6r_16bwcc-w0ra6r-policy" {
+resource "aws_iam_role_policy" "16bwcc-w0ra6r_16bwcc-w0ra6r-policy" {
   name = "16bwcc-w0ra6r-policy"
 
   policy = <<POLICY
@@ -91,7 +91,7 @@ POLICY
   role = "16bwcc-w0ra6r"
 }
 
-resource "aws_iam_role_policy" "tfer--6sy55r8-a9pbajn_6sy55r8-a9pbajn-policy" {
+resource "aws_iam_role_policy" "6sy55r8-a9pbajn_6sy55r8-a9pbajn-policy" {
   name = "6sy55r8-a9pbajn-policy"
 
   policy = <<POLICY
@@ -122,7 +122,7 @@ POLICY
   role = "6sy55r8-a9pbajn"
 }
 
-resource "aws_iam_role_policy" "tfer--6sy55r8-db1ywul_6sy55r8-db1ywul-policy" {
+resource "aws_iam_role_policy" "6sy55r8-db1ywul_6sy55r8-db1ywul-policy" {
   name = "6sy55r8-db1ywul-policy"
 
   policy = <<POLICY
@@ -153,7 +153,7 @@ POLICY
   role = "6sy55r8-db1ywul"
 }
 
-resource "aws_iam_role_policy" "tfer--AWS-CodePipeline-Service_oneClick_AWS-CodePipeline-Service_1522865830712" {
+resource "aws_iam_role_policy" "AWS-CodePipeline-Service_oneClick_AWS-CodePipeline-Service_1522865830712" {
   name = "oneClick_AWS-CodePipeline-Service_1522865830712"
 
   policy = <<POLICY
@@ -273,7 +273,7 @@ POLICY
   role = "AWS-CodePipeline-Service"
 }
 
-resource "aws_iam_role_policy" "tfer--AWS-QuickSetup-StackSet-Local-AdministrationRole_AssumeRole-AWS-QuickSetup-StackSet-Local-ExecutionRole" {
+resource "aws_iam_role_policy" "AWS-QuickSetup-StackSet-Local-AdministrationRole_AssumeRole-AWS-QuickSetup-StackSet-Local-ExecutionRole" {
   name = "AssumeRole-AWS-QuickSetup-StackSet-Local-ExecutionRole"
 
   policy = <<POLICY
@@ -296,7 +296,7 @@ POLICY
   role = "AWS-QuickSetup-StackSet-Local-AdministrationRole"
 }
 
-resource "aws_iam_role_policy" "tfer--Cognito_MobiUsersAuth_Role_oneClick_Cognito_MobiUsersAuth_Role_1483063394644" {
+resource "aws_iam_role_policy" "Cognito_MobiUsersAuth_Role_oneClick_Cognito_MobiUsersAuth_Role_1483063394644" {
   name = "oneClick_Cognito_MobiUsersAuth_Role_1483063394644"
 
   policy = <<POLICY
@@ -321,7 +321,7 @@ POLICY
   role = "Cognito_MobiUsersAuth_Role"
 }
 
-resource "aws_iam_role_policy" "tfer--Cognito_MobiUsersUnauth_Role_oneClick_Cognito_MobiUsersUnauth_Role_1483063394645" {
+resource "aws_iam_role_policy" "Cognito_MobiUsersUnauth_Role_oneClick_Cognito_MobiUsersUnauth_Role_1483063394645" {
   name = "oneClick_Cognito_MobiUsersUnauth_Role_1483063394645"
 
   policy = <<POLICY
@@ -345,7 +345,7 @@ POLICY
   role = "Cognito_MobiUsersUnauth_Role"
 }
 
-resource "aws_iam_role_policy" "tfer--HelloWorldFunction-role-sqhbv8z9_HelloWorldFunction" {
+resource "aws_iam_role_policy" "HelloWorldFunction-role-sqhbv8z9_HelloWorldFunction" {
   name = "HelloWorldFunction"
 
   policy = <<POLICY
@@ -372,7 +372,7 @@ POLICY
   role = "HelloWorldFunction-role-sqhbv8z9"
 }
 
-resource "aws_iam_role_policy" "tfer--SNSFailureFeedback_oneClick_SNSFailureFeedback_1490812130458" {
+resource "aws_iam_role_policy" "SNSFailureFeedback_oneClick_SNSFailureFeedback_1490812130458" {
   name = "oneClick_SNSFailureFeedback_1490812130458"
 
   policy = <<POLICY
@@ -399,7 +399,7 @@ POLICY
   role = "SNSFailureFeedback"
 }
 
-resource "aws_iam_role_policy" "tfer--SNSSuccessFeedback_oneClick_SNSSuccessFeedback_1490812130457" {
+resource "aws_iam_role_policy" "SNSSuccessFeedback_oneClick_SNSSuccessFeedback_1490812130457" {
   name = "oneClick_SNSSuccessFeedback_1490812130457"
 
   policy = <<POLICY
@@ -426,7 +426,7 @@ POLICY
   role = "SNSSuccessFeedback"
 }
 
-resource "aws_iam_role_policy" "tfer--SNSSuccessFeedback_oneClick_SNSSuccessFeedback_1507568464438" {
+resource "aws_iam_role_policy" "SNSSuccessFeedback_oneClick_SNSSuccessFeedback_1507568464438" {
   name = "oneClick_SNSSuccessFeedback_1507568464438"
 
   policy = <<POLICY
@@ -453,7 +453,7 @@ POLICY
   role = "SNSSuccessFeedback"
 }
 
-resource "aws_iam_role_policy" "tfer--amplify-login-lambda-c47df780_Amplify-backend" {
+resource "aws_iam_role_policy" "amplify-login-lambda-c47df780_Amplify-backend" {
   name = "Amplify-backend"
 
   policy = <<POLICY
@@ -482,7 +482,7 @@ POLICY
   role = "amplify-login-lambda-c47df780"
 }
 
-resource "aws_iam_role_policy" "tfer--aws-controltower-CloudWatchLogsRole_cloudtrail-policy" {
+resource "aws_iam_role_policy" "aws-controltower-CloudWatchLogsRole_cloudtrail-policy" {
   name = "cloudtrail-policy"
 
   policy = <<POLICY
@@ -508,7 +508,7 @@ POLICY
   role = "aws-controltower-CloudWatchLogsRole"
 }
 
-resource "aws_iam_role_policy" "tfer--aws-controltower-ForwardSnsNotificationRole_sns" {
+resource "aws_iam_role_policy" "aws-controltower-ForwardSnsNotificationRole_sns" {
   name = "sns"
 
   policy = <<POLICY
@@ -528,7 +528,7 @@ POLICY
   role = "aws-controltower-ForwardSnsNotificationRole"
 }
 
-resource "aws_iam_role_policy" "tfer--codebuild_terraform-20190607210958311500000001" {
+resource "aws_iam_role_policy" "codebuild_terraform-20190607210958311500000001" {
   name = "terraform-20190607210958311500000001"
 
   policy = <<POLICY
@@ -580,7 +580,7 @@ POLICY
   role = "codebuild"
 }
 
-resource "aws_iam_role_policy" "tfer--codepipeline_codepipeline" {
+resource "aws_iam_role_policy" "codepipeline_codepipeline" {
   name = "codepipeline"
 
   policy = <<POLICY
@@ -610,7 +610,7 @@ POLICY
   role = "codepipeline"
 }
 
-resource "aws_iam_role_policy" "tfer--eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN_eksctl-staging-cluster-cluster-PolicyCloudWatchMetrics" {
+resource "aws_iam_role_policy" "eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN_eksctl-staging-cluster-cluster-PolicyCloudWatchMetrics" {
   name = "eksctl-staging-cluster-cluster-PolicyCloudWatchMetrics"
 
   policy = <<POLICY
@@ -631,7 +631,7 @@ POLICY
   role = "eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN"
 }
 
-resource "aws_iam_role_policy" "tfer--eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN_eksctl-staging-cluster-cluster-PolicyNLB" {
+resource "aws_iam_role_policy" "eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN_eksctl-staging-cluster-cluster-PolicyNLB" {
   name = "eksctl-staging-cluster-cluster-PolicyNLB"
 
   policy = <<POLICY
@@ -654,7 +654,7 @@ POLICY
   role = "eksctl-staging-cluster-cluster-ServiceRole-1MLNFS8DCCIN"
 }
 
-resource "aws_iam_role_policy" "tfer--lambda-es-execution-role_es-intermodal-routing-access" {
+resource "aws_iam_role_policy" "lambda-es-execution-role_es-intermodal-routing-access" {
   name = "es-intermodal-routing-access"
 
   policy = <<POLICY
@@ -675,7 +675,7 @@ POLICY
   role = "lambda-es-execution-role"
 }
 
-resource "aws_iam_role_policy" "tfer--lambda_basic_execution_oneClick_lambda_basic_execution_1485114895835" {
+resource "aws_iam_role_policy" "lambda_basic_execution_oneClick_lambda_basic_execution_1485114895835" {
   name = "oneClick_lambda_basic_execution_1485114895835"
 
   policy = <<POLICY
@@ -698,7 +698,7 @@ POLICY
   role = "lambda_basic_execution"
 }
 
-resource "aws_iam_role_policy" "tfer--lambda_w_S3_oneClick_lambda_basic_execution_1485530778262" {
+resource "aws_iam_role_policy" "lambda_w_S3_oneClick_lambda_basic_execution_1485530778262" {
   name = "oneClick_lambda_basic_execution_1485530778262"
 
   policy = <<POLICY
@@ -733,7 +733,7 @@ POLICY
   role = "lambda_w_S3"
 }
 
-resource "aws_iam_role_policy" "tfer--nbuu1a-2wc5zc_nbuu1a-2wc5zc-policy" {
+resource "aws_iam_role_policy" "nbuu1a-2wc5zc_nbuu1a-2wc5zc-policy" {
   name = "nbuu1a-2wc5zc-policy"
 
   policy = <<POLICY
@@ -764,7 +764,7 @@ POLICY
   role = "nbuu1a-2wc5zc"
 }
 
-resource "aws_iam_role_policy" "tfer--nbuu1a-prufk18_nbuu1a-prufk18-policy" {
+resource "aws_iam_role_policy" "nbuu1a-prufk18_nbuu1a-prufk18-policy" {
   name = "nbuu1a-prufk18-policy"
 
   policy = <<POLICY
@@ -795,7 +795,7 @@ POLICY
   role = "nbuu1a-prufk18"
 }
 
-resource "aws_iam_role_policy" "tfer--nbuu1a-wqtofz_nbuu1a-wqtofz-policy" {
+resource "aws_iam_role_policy" "nbuu1a-wqtofz_nbuu1a-wqtofz-policy" {
   name = "nbuu1a-wqtofz-policy"
 
   policy = <<POLICY
@@ -826,7 +826,7 @@ POLICY
   role = "nbuu1a-wqtofz"
 }
 
-resource "aws_iam_role_policy" "tfer--ot47ym-51pc8g_ot47ym-51pc8g-policy" {
+resource "aws_iam_role_policy" "ot47ym-51pc8g_ot47ym-51pc8g-policy" {
   name = "ot47ym-51pc8g-policy"
 
   policy = <<POLICY
@@ -857,7 +857,7 @@ POLICY
   role = "ot47ym-51pc8g"
 }
 
-resource "aws_iam_role_policy" "tfer--ot47ym-vlk2lnj_ot47ym-vlk2lnj-policy" {
+resource "aws_iam_role_policy" "ot47ym-vlk2lnj_ot47ym-vlk2lnj-policy" {
   name = "ot47ym-vlk2lnj-policy"
 
   policy = <<POLICY
@@ -888,7 +888,7 @@ POLICY
   role = "ot47ym-vlk2lnj"
 }
 
-resource "aws_iam_role_policy" "tfer--sls-drivergpstracking-dev-eu-central-1-lambdaRole_sls-drivergpstracking-dev-lambda" {
+resource "aws_iam_role_policy" "sls-drivergpstracking-dev-eu-central-1-lambdaRole_sls-drivergpstracking-dev-lambda" {
   name = "sls-drivergpstracking-dev-lambda"
 
   policy = <<POLICY
@@ -929,7 +929,7 @@ POLICY
   role = "sls-drivergpstracking-dev-eu-central-1-lambdaRole"
 }
 
-resource "aws_iam_role_policy" "tfer--sls-tui-pre-eu-central-1-lambdaRole_sls-tui-pre-lambda" {
+resource "aws_iam_role_policy" "sls-tui-pre-eu-central-1-lambdaRole_sls-tui-pre-lambda" {
   name = "sls-tui-pre-lambda"
 
   policy = <<POLICY
@@ -995,7 +995,7 @@ POLICY
   role = "sls-tui-pre-eu-central-1-lambdaRole"
 }
 
-resource "aws_iam_role_policy" "tfer--sls-tui-prod-eu-central-1-lambdaRole_sls-tui-prod-lambda" {
+resource "aws_iam_role_policy" "sls-tui-prod-eu-central-1-lambdaRole_sls-tui-prod-lambda" {
   name = "sls-tui-prod-lambda"
 
   policy = <<POLICY
@@ -1061,7 +1061,7 @@ POLICY
   role = "sls-tui-prod-eu-central-1-lambdaRole"
 }
 
-resource "aws_iam_role_policy" "tfer--sls-tui-staging-eu-central-1-lambdaRole_sls-tui-staging-lambda" {
+resource "aws_iam_role_policy" "sls-tui-staging-eu-central-1-lambdaRole_sls-tui-staging-lambda" {
   name = "sls-tui-staging-lambda"
 
   policy = <<POLICY
@@ -1127,7 +1127,7 @@ POLICY
   role = "sls-tui-staging-eu-central-1-lambdaRole"
 }
 
-resource "aws_iam_role_policy" "tfer--sls-tui-uat-eu-central-1-lambdaRole_sls-tui-uat-lambda" {
+resource "aws_iam_role_policy" "sls-tui-uat-eu-central-1-lambdaRole_sls-tui-uat-lambda" {
   name = "sls-tui-uat-lambda"
 
   policy = <<POLICY
@@ -1175,7 +1175,7 @@ POLICY
   role = "sls-tui-uat-eu-central-1-lambdaRole"
 }
 
-resource "aws_iam_role_policy" "tfer--us-east-1_yCoNrnkbE_Full-access_Full-access-Policy" {
+resource "aws_iam_role_policy" "us-east-1_yCoNrnkbE_Full-access_Full-access-Policy" {
   name = "Full-access-Policy"
 
   policy = <<POLICY
@@ -1254,7 +1254,7 @@ POLICY
   role = "us-east-1_yCoNrnkbE_Full-access"
 }
 
-resource "aws_iam_role_policy" "tfer--us-east-1_yCoNrnkbE_Manage-only_Amplify-Admin-ManageOnly-Policy" {
+resource "aws_iam_role_policy" "us-east-1_yCoNrnkbE_Manage-only_Amplify-Admin-ManageOnly-Policy" {
   name = "Amplify-Admin-ManageOnly-Policy"
 
   policy = <<POLICY
